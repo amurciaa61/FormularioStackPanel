@@ -6,15 +6,14 @@
         xmlns:local="clr-namespace:FormularioStackPanel"
         mc:Ignorable="d"
         Title="Formulario Stack Panel"
-        Height="400"
-        Width="800"
-        MinHeight="375"
-        MinWidth="244"
+        Height="350"
+        Width="737"
+        MaxWidth="900"
         Icon="Imagenes/dibujo.ico">
     <StackPanel Orientation="Vertical">
         <StackPanel 
-            Margin="10"
-            Height="70">
+            Margin="10,10,10,13"
+            Height="60">
             <StackPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1"
                                      StartPoint="0.5,0">
@@ -33,8 +32,8 @@
                      Margin="5,0"/>
         </StackPanel>
         <StackPanel>
-            <StackPanel Margin="10"
-                        Height="70">
+            <StackPanel Margin="10,10,10,13"
+                        Height="60">
                 <StackPanel.Background>
                     <LinearGradientBrush EndPoint="0.5,1"
                                          StartPoint="0.5,0">
@@ -54,8 +53,8 @@
             </StackPanel>
         </StackPanel>
         <StackPanel>
-            <StackPanel Margin="10"
-                        Height="70">
+            <StackPanel Margin="10,10,10,13"
+                        Height="60">
                 <StackPanel.Background>
                     <LinearGradientBrush EndPoint="0.5,1"
                                          StartPoint="0.5,0">
@@ -71,13 +70,13 @@
                            FontWeight="Bold">
                 </TextBlock>
                 <TextBox x:Name="correoTextBox"
-                         Margin="5,0" />
+                         Margin="5,0,95,0" />
             </StackPanel>
         </StackPanel>
         <StackPanel
             Orientation="Horizontal"
-            Height="25"
-            Margin="0,30,0,0"
+            Height="20"
+            Margin="0,10,0,0"
             HorizontalAlignment="Right">
             <Button 
                 x:Name="aceptarButton"
