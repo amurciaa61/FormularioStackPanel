@@ -9,6 +9,7 @@
         Height="350"
         Width="737"
         MaxWidth="900"
+        MinWidth="400"
         Icon="Imagenes/dibujo.ico">
     <StackPanel Orientation="Vertical">
         <StackPanel 
