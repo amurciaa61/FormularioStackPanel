@@ -71,7 +71,9 @@
                            FontWeight="Bold">
                 </TextBlock>
                 <TextBox x:Name="correoTextBox"
-                         Margin="5,0,95,0" />
+                         Margin="5,0"
+                         Width="600"
+                         HorizontalAlignment="Left"/>
             </StackPanel>
         </StackPanel>
         <StackPanel
