@@ -13,8 +13,7 @@
         Icon="Imagenes/dibujo.ico">
     <StackPanel Orientation="Vertical">
         <StackPanel 
-            Margin="10,10,10,13"
-            Height="60">
+            Margin="10,10,10,13">
             <StackPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1"
                                      StartPoint="0.5,0">
@@ -30,11 +29,10 @@
                        FontWeight="Bold">
             </TextBlock>
             <TextBox x:Name="nombreTextBox"
-                     Margin="5,0"/>
+                     Margin="5,0,5,10"/>
         </StackPanel>
         <StackPanel>
-            <StackPanel Margin="10,10,10,13"
-                        Height="60">
+            <StackPanel Margin="10,10,10,13">
                 <StackPanel.Background>
                     <LinearGradientBrush EndPoint="0.5,1"
                                          StartPoint="0.5,0">
@@ -50,12 +48,11 @@
                            FontWeight="Bold">
                 </TextBlock>
                 <TextBox x:Name="direccionTextBox"
-                         Margin="5,0" />
+                         Margin="5,0,5,10"/>
             </StackPanel>
         </StackPanel>
         <StackPanel>
-            <StackPanel Margin="10,10,10,13"
-                        Height="60">
+            <StackPanel Margin="10,10,10,13">
                 <StackPanel.Background>
                     <LinearGradientBrush EndPoint="0.5,1"
                                          StartPoint="0.5,0">
@@ -71,7 +68,7 @@
                            FontWeight="Bold">
                 </TextBlock>
                 <TextBox x:Name="correoTextBox"
-                         Margin="5,0"
+                         Margin="5,0,5,10"
                          Width="600"
                          HorizontalAlignment="Left"/>
             </StackPanel>
