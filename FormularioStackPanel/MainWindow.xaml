@@ -12,7 +12,7 @@
         MinWidth="400"
         Icon="Imagenes/dibujo.ico">
     <Window.Resources>
-        <!-- Estilo para todos los stack que hay dentro del StackPanel principal-->
+        <!-- Estilo para todos los StackPanel con la etiqueta subStack -->
         <Style TargetType="{x:Type StackPanel}"
                x:Key="subStack">
             <Setter Property="Margin"
